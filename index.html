@@ -6,7 +6,7 @@
   <title>SaaS Landing Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
-
+  <script src="https://cdn.amplitude.com/script/70df863a2872aa6f357dc954ff6e7887.js"></script><script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('70df863a2872aa6f357dc954ff6e7887', {"fetchRemoteConfig":true,"autocapture":true});</script>
 </head>
 <body class="bg-gray-50 text-gray-800">
   <!-- Header -->
@@ -18,6 +18,7 @@
         <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a>
         <a href="#testimonials" class="text-gray-600 hover:text-blue-600">Testimonials</a>
         <a href="#contact-us" class="text-gray-600 hover:text-blue-600">Contact</a>
+        <a href="#subscribe-us" class="text-gray-600 hover:text-blue-600">Subscribe</a>
       </nav>
       <a class="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
                target="_blank" href="https://app.kundal.io">Start Free</a>
@@ -118,23 +119,39 @@
     </div>
   </section>
 
-    <!-- Features Section -->
-    <section id="contact-us" class="py-16">
-      <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
-        <p class="mt-4 text-gray-600">Feel free to share your contact information with us.</p>
-        <div class="mt-10 grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-8">
+  <!-- Features Section -->
+  <section id="contact-us" class="py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
+      <p class="mt-4 text-gray-600">Feel free to share your contact information with us.</p>
+      <div class="mt-10 grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-8">
 
-          <div></div>
-          <div class="bg-white rounded-lg shadow p-6">
-            <div id="contact-form"></div>
-          </div>
-          <div></div>
-
+        <div></div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <div id="contact-form"></div>
         </div>
-      </div>
-    </section>
+        <div></div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="subscribe-us" class="py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-800">Subscribe to our newsletter!</h2>
+      <div class="mt-10 grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-8">
+
+        <div></div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <div id="subscribe-form"></div>
+        </div>
+        <div></div>
+
+      </div>
+    </div>
+  </section>
+    
 
   <!-- CTA Section -->
   <section id="cta" class="bg-blue-600 py-16 text-white">
